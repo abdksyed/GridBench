@@ -1,2 +1,2 @@
-# XWordBench
-Benchmarking LLMs and VLMs for solving various XWords
+# GridBench
+Benchmarking LLMs and VLMs for solving various XWords, Sudoku etc
