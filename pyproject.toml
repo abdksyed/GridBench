@@ -1,0 +1,17 @@
+[project]
+name = "gridbench"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "datasets>=5.0.1",
+    "inspect-ai>=0.3.260",
+    "openai>=3.3.1",
+    "puzpy>=0.6.1",
+    "pydantic>=2.13.4",
+    "xword-dl",
+]
+
+[tool.uv.sources]
+xword-dl = { git = "https://github.com/abdksyed/xword-dl.git" }
